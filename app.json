@@ -1,0 +1,24 @@
+{
+  "name": "Bot Telegram Shorts Viraux",
+  "description": "Générateur automatique de shorts viraux avec Gemini AI",
+  "repository": "https://github.com/votre-username/telegram-shorts-bot",
+  "keywords": ["telegram", "bot", "shorts", "gemini", "ai", "video"],
+  "env": {
+    "TELEGRAM_BOT_TOKEN": {
+      "description": "Token du bot Telegram (obtenu via @BotFather)",
+      "required": true
+    },
+    "GEMINI_API_KEY": {
+      "description": "Clé API Gemini (obtenue via Google AI Studio)",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }
+  ]
+}

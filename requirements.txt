@@ -1,0 +1,7 @@
+python-telegram-bot==20.7
+google-generativeai==0.3.2
+moviepy==1.0.3
+openai-whisper==20231117
+yt-dlp==2023.12.30
+Pillow==10.1.0
+numpy==1.24.3
